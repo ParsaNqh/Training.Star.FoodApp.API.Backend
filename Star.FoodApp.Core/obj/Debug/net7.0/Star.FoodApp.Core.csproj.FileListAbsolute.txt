@@ -1,0 +1,12 @@
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.Core\bin\Debug\net7.0\Star.FoodApp.Core.deps.json
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.Core\bin\Debug\net7.0\Star.FoodApp.Core.dll
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.Core\bin\Debug\net7.0\Star.FoodApp.Core.pdb
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.Core\obj\Debug\net7.0\Star.FoodApp.Core.csproj.AssemblyReference.cache
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.Core\obj\Debug\net7.0\Star.FoodApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.Core\obj\Debug\net7.0\Star.FoodApp.Core.AssemblyInfoInputs.cache
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.Core\obj\Debug\net7.0\Star.FoodApp.Core.AssemblyInfo.cs
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.Core\obj\Debug\net7.0\Star.FoodApp.Core.csproj.CoreCompileInputs.cache
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.Core\obj\Debug\net7.0\Star.FoodApp.Core.dll
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.Core\obj\Debug\net7.0\refint\Star.FoodApp.Core.dll
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.Core\obj\Debug\net7.0\Star.FoodApp.Core.pdb
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.Core\obj\Debug\net7.0\ref\Star.FoodApp.Core.dll

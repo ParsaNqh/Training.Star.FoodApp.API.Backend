@@ -1,0 +1,17 @@
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Infrastructure\bin\Debug\net7.0\Infrastructure.runtimeconfig.json
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Infrastructure\bin\Debug\net7.0\Star.FoodApp.Core.dll
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Infrastructure\bin\Debug\net7.0\Star.FoodApp.Core.pdb
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Infrastructure\obj\Debug\net7.0\Infrastructure.genruntimeconfig.cache
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
