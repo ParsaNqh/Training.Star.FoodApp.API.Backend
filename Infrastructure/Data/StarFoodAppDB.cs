@@ -13,5 +13,9 @@ namespace Infrastructure.Data
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
         public StarFoodAppDB(DbContextOptions<StarFoodAppDB> options)
             :base(options) { }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<ApplicationUser>().HasKey(a => a.Username);
+        }
     }
 }

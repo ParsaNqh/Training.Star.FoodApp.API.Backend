@@ -1,5 +1,7 @@
-using Infrastructure.Data;
+﻿using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
+using Star.FoodApp.API.Security.DTOs;
+using Star.FoodApp.Core.Entities;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,8 +12,14 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<StarFoodAppDB>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("MainDB"));
-});
+}); 
+
+builder.Services.AddCors(option=> 
+    option.AddDefaultPolicy(builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
+
 var app = builder.Build();
+
+app.UseCors();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -22,29 +30,27 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
 
-app.MapGet("/weatherforecast", () =>
+
+app.MapPost("/login", (StarFoodAppDB db, LoginDto login) =>
 {
-    var forecast = Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast")
-.WithOpenApi();
+    var result = db.ApplicationUsers.FirstOrDefault(m => m.Username == login.Username && m.Password == login.Password);
+    if (result == null)
+    {
+        return Results.Ok(new
+        {
+            Message = "نام کاربری یا کلمه عبرو صحیح نیست",
+            Success = false
+        });
+    }
+    return Results.Ok(new
+    {
+        Message = "خوش آمدید",
+        Success = true
+
+    });
+
+});
 
 app.Run();
 
-internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
