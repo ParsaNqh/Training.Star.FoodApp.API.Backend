@@ -11,11 +11,15 @@ namespace Infrastructure.Data
     public class StarFoodAppDB : DbContext  
     {
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+        public DbSet<Restaurant> Restaurants { get; set; }
+        public DbSet<RestaurantFood> RestaurantFoods { get; set; }
         public StarFoodAppDB(DbContextOptions<StarFoodAppDB> options)
             :base(options) { }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<ApplicationUser>().HasKey(a => a.Username);
+            //modelBuilder.Entity<RestaurantFood>().HasNoKey();
+            modelBuilder.Entity<Restaurant>().HasKey(r => r.Title);
         }
     }
 }

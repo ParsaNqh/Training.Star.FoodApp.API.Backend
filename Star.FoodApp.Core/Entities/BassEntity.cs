@@ -9,5 +9,10 @@ namespace Star.FoodApp.Core.Entities
     public class BassEntity
     {
         public int Id { get; set; }
+        public DateTime CreationTime { get; set; }
+        public BassEntity()
+        {
+            CreationTime = DateTime.Now;
+        }
     }
 }

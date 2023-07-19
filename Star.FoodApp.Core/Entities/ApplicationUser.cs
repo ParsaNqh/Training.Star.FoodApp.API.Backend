@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Star.FoodApp.Core.Enum;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,6 @@ namespace Star.FoodApp.Core.Entities
         public string Username { get; set; }
         public string Password { get; set; }
         public string City { get; set; }
-        public string Type { get; set; }
+        public ApplicationUserType Type { get; set; }
     }
 }
