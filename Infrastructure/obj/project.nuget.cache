@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UL9BsokNOB5Npo+vfTvi0LOL6eHBzPQNYOLIFSfrK/04Lw8uMWpVCpwOWTqlGucI+T9GCoRjPhqw65T97o0grg==",
+  "dgSpecHash": "vQCXr2s9VvUOrguwrN3vbgSUR6NoiGoSali3kwdm7lxxJgJ9ILw5BrBm4ZYZAIfppXySfDmwQRCq1yGHW1T1BQ==",
   "success": true,
   "projectFilePath": "D:\\learning\\Django.practice\\FoodApp\\Star.FoodApp.API.Backend\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [

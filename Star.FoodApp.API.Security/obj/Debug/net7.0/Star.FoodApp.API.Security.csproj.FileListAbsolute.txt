@@ -78,3 +78,4 @@ D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.API.Se
 D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.API.Security\obj\Debug\net7.0\Star.FoodApp.API.Security.pdb
 D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.API.Security\obj\Debug\net7.0\Star.FoodApp.API.Security.genruntimeconfig.cache
 D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.API.Security\obj\Debug\net7.0\ref\Star.FoodApp.API.Security.dll
+D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.API.Security\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

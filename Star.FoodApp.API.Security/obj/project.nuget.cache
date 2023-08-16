@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "TZw5S9HbPHIxFMniivoYG+PJsVwgy4XIc2+MdvCMS8/jo02Rw788AlpGtxHEEC+yy9/vLh8rQXn3Hvs218Yqzg==",
+  "dgSpecHash": "Gs96A7JNfS/j5Sh5lC3W58NErHP/IEYGbyzThwWUW5J9+IfXJxFOO5iEZTdOzSfOuUB2LvG8mkiZMabpLingZQ==",
   "success": true,
   "projectFilePath": "D:\\learning\\Django.practice\\FoodApp\\Star.FoodApp.API.Backend\\Star.FoodApp.API.Security\\Star.FoodApp.API.Security.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\naghavi\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\naghavi\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\naghavi\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\naghavi\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.9\\microsoft.aspnetcore.authentication.jwtbearer.7.0.9.nupkg.sha512",
     "C:\\Users\\naghavi\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.9\\microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",
     "C:\\Users\\naghavi\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\naghavi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

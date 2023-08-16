@@ -18,8 +18,6 @@ namespace Infrastructure.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<ApplicationUser>().HasKey(a => a.Username);
-            //modelBuilder.Entity<RestaurantFood>().HasNoKey();
-            modelBuilder.Entity<Restaurant>().HasKey(r => r.Title);
         }
     }
 }

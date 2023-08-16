@@ -9,11 +9,10 @@ namespace Star.FoodApp.Core.Entities
 {
     public class RestaurantFood:BassEntity
     {
-        public Restaurant RestaurantName { get; set; }
-        public string RestaurantNameTitle { get; set; }
-        public ApplicationUser RestaurantOwner { get; set; }
-        public string RestaurantOwnerUsername { get; set; }
-        public List<String> Foood { get; set; } = new List<string>();
+        public Restaurant RestaurantTitle { get; set; }
+        public string RestaurantTitleId { get; set; }
+        public String Title { get; set; } 
         public double Price { get; set; }
+        public double Discount { get; set; }
     }
 }
