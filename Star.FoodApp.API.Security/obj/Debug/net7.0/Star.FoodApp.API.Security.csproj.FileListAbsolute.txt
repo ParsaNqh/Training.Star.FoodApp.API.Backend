@@ -15,7 +15,6 @@ D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.API.Se
 D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.API.Security\bin\Debug\net7.0\Azure.Core.dll
 D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.API.Security\bin\Debug\net7.0\Azure.Identity.dll
 D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.API.Security\bin\Debug\net7.0\Humanizer.dll
-D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.API.Security\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.API.Security\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.API.Security\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
 D:\learning\Django.practice\FoodApp\Star.FoodApp.API.Backend\Star.FoodApp.API.Security\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
